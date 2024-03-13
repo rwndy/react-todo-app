@@ -1,20 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
+
 import './index.css'
 import  { 
-  createBrowserRouter,
   RouterProvider
-} from 'react-router-dom' 
-import ErrorPage from './error-page.tsx'
+} from 'react-router-dom'
 
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <App />,
-    errorElement: <ErrorPage />
-  }
-])
+import router from './constants/routes/Routes.tsx'
+
+
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
