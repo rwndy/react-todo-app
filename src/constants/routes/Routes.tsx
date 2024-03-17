@@ -4,7 +4,7 @@ import {
 
 // component
 import Home from "../../pages/Home";
-import ErrorPage from "../../error-page";
+import ErrorPage from "../../pages/error-page";
 
 
 const router = createBrowserRouter([

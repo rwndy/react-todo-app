@@ -1,4 +1,4 @@
-h1 {
+h1.overlay-title .form-title {
 	font-weight: bold;
 	margin: 0;
 }
@@ -7,7 +7,7 @@ h2 {
 	text-align: center;
 }
 
-p {
+p.form-content {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 20px;

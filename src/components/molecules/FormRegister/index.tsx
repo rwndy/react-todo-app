@@ -1,11 +1,11 @@
 import React from "react";
-import { Input, Button } from "../../atoms";
+import { Input, Button, Title } from "../../atoms";
 
 const FormRegister = () => {
   return (
     <div className="form-container sign-up-container">
       <form>
-        <h1>Create Account</h1>
+        <Title className="form-title" title="Create Account"/>
         <Input type="text" placeholder="Name" />
         <Input type="email" placeholder="Email" />
         <Input type="password" placeholder="Password" />
