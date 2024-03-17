@@ -12,6 +12,7 @@ p.home-trend {
   text-align: center;
   line-height: 48px;
   letter-spacing: 1px;
+  color: white;
 }
 
 .home-section{ 
@@ -29,6 +30,7 @@ p.home-trend {
   justify-content: center;
   align-items: center;
   height: 100%;
+  color: white;
 }
 
 button.home-button {
@@ -41,4 +43,5 @@ button.home-button {
   text-align: center;
   display: block;
   cursor: pointer;
+  
 }
