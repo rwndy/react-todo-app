@@ -10,4 +10,4 @@ RUN yarn build
 
 
 EXPOSE 3000
-CMD [ "yarn", "run", "dev" ]
+CMD [ "yarn", "run", "preview" ]
