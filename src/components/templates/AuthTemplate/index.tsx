@@ -1,4 +1,4 @@
-import { Form } from "../../molecules"
+import { Form } from "../../organisms"
 
 const AuthTemplate = () => {
   return (

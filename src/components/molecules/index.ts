@@ -1,3 +1,5 @@
-import Form from "./Form";
+import FormLogin from "./FormLogin"
+import FormRegister from "./FormRegister"
+import OverlayForm from "./OverlayForm"
 
-export {  Form }
+export { FormLogin, FormRegister, OverlayForm }
