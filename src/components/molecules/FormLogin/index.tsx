@@ -8,7 +8,7 @@ const FormLogin = () => {
         <Input type="email" placeholder="Email"/>
         <Input type="password" placeholder="Password"/>
         <a href="/#">Forget Password?</a>
-        <Button>Sign In</Button>
+        <Button className="btn-form">Sign In</Button>
       </form>
     </div>
   )

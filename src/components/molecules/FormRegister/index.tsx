@@ -9,7 +9,7 @@ const FormRegister = () => {
         <Input type="text" placeholder="Name" />
         <Input type="email" placeholder="Email" />
         <Input type="password" placeholder="Password" />
-        <Button>Sign Up</Button>
+        <Button className="btn-form">Sign Up</Button>
       </form>
     </div>
   );

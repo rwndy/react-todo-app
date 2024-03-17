@@ -2,7 +2,9 @@ import { Form } from "../../organisms"
 
 const AuthTemplate = () => {
   return (
-    <Form/>
+    <div className="auth-main">
+      <Form/>
+    </div>
   )
 }
 

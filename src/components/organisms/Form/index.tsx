@@ -1,14 +1,23 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 import { FormLogin, FormRegister, OverlayForm } from "../../molecules";
 import '../../../styles/auth/auth.css'
 
 const Form = () => {
   const [toggle, setToggle] = useState(false);
+  const navigate = useNavigate()
 
   const signUp = () => {
-    setToggle((prevToggle) => !prevToggle);
+    navigate('/signup')
+    setToggle(true);
   };
+
+  const handleSignIn = () => {
+    navigate('/login')
+    setToggle(false)
+  }
+
 
   const signUpClasses = ["container", toggle ? "right-panel-active" : ""].join(
     " "
@@ -18,7 +27,7 @@ const Form = () => {
     <div className={signUpClasses}>
       <FormRegister />
       <FormLogin />
-      <OverlayForm onSignIn={signUp} onSignUp={signUp}/>
+      <OverlayForm onSignIn={handleSignIn} onSignUp={signUp}/>
     </div>
   );
 };

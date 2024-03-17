@@ -13,10 +13,12 @@
 .error-title {
   font-size: 72px;
   font-weight: 600;
+  color: white;
 }
 
 .error-content {
   font-size: 20px;
+  color: white;
 }
 
 .error-btn {
@@ -28,4 +30,5 @@
   border-radius: 10px;
   margin-top: 30px;
   cursor: pointer;
+  color: white;
 }

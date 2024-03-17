@@ -1,3 +1,11 @@
+.auth-main {
+	display: flex;
+	height: 100vh;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+}
+
 h1.overlay-title .form-title {
 	font-weight: bold;
 	margin: 0;
@@ -27,7 +35,7 @@ a {
 	margin: 15px 0;
 }
 
-button.btn-form {
+.btn-form {
 	border-radius: 20px;
 	border: 1px solid #FF4B2B;
 	background-color: #FF4B2B;
@@ -40,11 +48,11 @@ button.btn-form {
 	transition: transform 80ms ease-in;
 }
 
-button.btn-form:active {
+.btn-form:active {
 	transform: scale(0.95);
 }
 
-button.btn-form:focus {
+.btn-form:focus {
 	outline: none;
 }
 
