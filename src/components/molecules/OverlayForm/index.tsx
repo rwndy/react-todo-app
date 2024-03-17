@@ -14,14 +14,14 @@ const OverlayForm = ({ onSignIn, onSignUp }: OverlayFormProps) => {
         <p>
           To keep connected with us please login with your personal info
         </p>
-        <Button className="ghost" onClick={onSignIn}>
+        <Button className="ghost btn-form" onClick={onSignIn}>
           Sign In
         </Button>
       </div>
       <div className="overlay-panel overlay-right">
         <h1>Hello, Friend!</h1>
         <p>Enter your personal details and start journey with us</p>
-        <Button className="ghost" onClick={onSignUp}>
+        <Button className="ghost btn-form" onClick={onSignUp}>
           Sign Up
         </Button>
       </div>

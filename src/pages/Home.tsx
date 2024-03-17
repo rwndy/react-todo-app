@@ -1,14 +1,9 @@
+import { HomePageTemplate } from "../components/templates";
 
-import { AuthTemplate } from "../components/templates"
-
-import '../styles/home/home.css'
+import "../styles/home/home.css";
 
 const Home = () => {
-  return (
-    <main className="home">
-      <AuthTemplate />
-    </main>
-  )
-}
+  return <HomePageTemplate />;
+};
 
-export default Home
+export default Home;

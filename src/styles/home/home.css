@@ -1,7 +1,43 @@
 .home {
   width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, #FF4B2B, #FF416C);
+  padding: 20px 40px;
+  overflow: hidden;
+}
+
+p.home-trend {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 42px;
+}
+
+.home-section{ 
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translate(0, 40%);
+  width: 100%;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+button.home-button {
+  border: none;
+  color: #000;
+  border-radius: 30px;
+  padding: 8px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  display: block;
+  cursor: pointer;
 }

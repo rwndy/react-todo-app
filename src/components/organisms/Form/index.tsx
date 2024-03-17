@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import { FormLogin, FormRegister, OverlayForm } from "../../molecules";
-import './form.css'
+import '../../../styles/auth/auth.css'
 
 const Form = () => {
   const [toggle, setToggle] = useState(false);
