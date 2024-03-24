@@ -1,11 +1,15 @@
 import {
-  createBrowserRouter,
+  createBrowserRouter
 } from "react-router-dom";
+
 
 // component
 import Home from "../../pages/Home";
 import ErrorPage from "../../pages/error-page";
 import AuthPage from "../../pages/AuthPage";
+import Dashboard from "../../pages/Dashboard";
+import {ProtectedRoute} from "../../components/molecules";
+
 
 const router = createBrowserRouter([
   {
@@ -15,12 +19,16 @@ const router = createBrowserRouter([
   },
   {
     path: '/login',
-    element: <AuthPage />
+    element: <ProtectedRoute><AuthPage /></ProtectedRoute>
   },
   {
-    path: '/signup',
-    element: <AuthPage />
-  }
+    path: '/register',
+    element: <ProtectedRoute><AuthPage /></ProtectedRoute>
+  },
+ {
+    path: '/dashboard',
+    element: <Dashboard />
+ }
 
 ])
 
