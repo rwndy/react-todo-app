@@ -1,9 +1,9 @@
-
+import { Navigation } from "../components/molecules";
 
 const Dashboard = () => {
   return (
     <section className="dashboard">
-      {/* <Navigation /> */}
+      <Navigation />
       Dashboard
     </section>
   );

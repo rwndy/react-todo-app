@@ -8,26 +8,26 @@ import Home from "../../pages/Home";
 import ErrorPage from "../../pages/error-page";
 import AuthPage from "../../pages/AuthPage";
 import Dashboard from "../../pages/Dashboard";
-import {ProtectedRoute} from "../../components/molecules";
+import { PrivateRoute, PublicRoute } from "../../components/molecules";
 
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Home />,
+    element: <PublicRoute><Home /></PublicRoute>,
     errorElement: <ErrorPage />,
   },
   {
     path: '/login',
-    element: <ProtectedRoute><AuthPage /></ProtectedRoute>
+    element: <PublicRoute><AuthPage /></PublicRoute>
   },
   {
     path: '/register',
-    element: <ProtectedRoute><AuthPage /></ProtectedRoute>
+    element: <PublicRoute><AuthPage /></PublicRoute>
   },
  {
     path: '/dashboard',
-    element: <Dashboard />
+    element: <PrivateRoute><Dashboard /></PrivateRoute>
  }
 
 ])
