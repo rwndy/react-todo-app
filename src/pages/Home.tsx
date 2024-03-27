@@ -1,4 +1,4 @@
-import { HomePageTemplate } from "../components/templates";
+import { HomePageTemplate } from "@/components";
 
 import "../styles/home/home.css";
 

@@ -1,4 +1,4 @@
-import { Navigation } from "../../molecules"
+import { Navigation } from "@/components"
 import '../../../styles/header/header.css'
 
 const Header = () => {

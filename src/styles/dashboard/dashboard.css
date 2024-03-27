@@ -1,0 +1,27 @@
+.dashboard {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.dashboard-container {
+  display: grid;
+  grid-template-columns: 1.5fr 8fr;
+  grid-template-areas: "sidebar content";
+}
+
+.dashboard-sidenavigation{
+  grid-area: sidebar;
+  height: 100vh;
+  background-color: #FF416C;
+}
+
+.dashboard-content {
+  grid-area: content;
+  height: 100vh;
+}
+
+.dashboard-sidenav {
+  height: 100%;
+}

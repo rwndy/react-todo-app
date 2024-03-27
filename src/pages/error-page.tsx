@@ -1,6 +1,6 @@
 import { useRouteError } from "react-router-dom";
 
-import { Button, Title } from "../components/atoms";
+import { Button, Title } from "@/components";
 
 import "../styles/error/error.css";
 

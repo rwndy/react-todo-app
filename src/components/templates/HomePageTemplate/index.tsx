@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
 
 
-import { Button } from "../../atoms";
-import { Header } from "../../organisms";
+import { Button, Header } from "@/components";
 
 const HomePageTemplate = () => {
   return (

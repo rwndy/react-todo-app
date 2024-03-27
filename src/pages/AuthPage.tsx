@@ -1,4 +1,4 @@
-import { AuthTemplate } from "../components/templates"
+import { AuthTemplate } from "@/components"
 
 const AuthPage = () => {
   return (

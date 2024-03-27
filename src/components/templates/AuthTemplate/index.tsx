@@ -1,4 +1,4 @@
-import { Form } from "../../organisms"
+import { Form } from "@/components"
 
 const AuthTemplate = () => {
   return (

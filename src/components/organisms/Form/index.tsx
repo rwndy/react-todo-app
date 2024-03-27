@@ -1,7 +1,7 @@
 import { useState, useEffect, ChangeEvent, FormEvent} from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 
-import { FormLogin, FormRegister, OverlayForm } from "../../molecules";
+import { FormLogin, FormRegister, OverlayForm } from "@/components";
 import '../../../styles/auth/auth.css'
 
 import { setCookie } from "../../../lib/cookies";
